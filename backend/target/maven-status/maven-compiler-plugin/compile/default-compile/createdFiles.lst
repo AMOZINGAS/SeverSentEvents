@@ -1,0 +1,5 @@
+com\mycompany\backend\SseIotMonitoringApplication.class
+com\mycompany\backend\config\CorsConfig.class
+com\mycompany\backend\model\SensorReading.class
+com\mycompany\backend\Backend.class
+com\mycompany\backend\controller\SensorSseController.class

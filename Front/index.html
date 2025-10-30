@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Monitoreo IoT - SSE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container">
+<h1>Monitoreo IoT (SSE)</h1>
+
+
+<section class="controls">
+<button id="btnConnect">Conectar</button>
+<button id="btnDisconnect" disabled>Desconectar</button>
+<button id="btnToggle">Pausar recepción</button>
+</section>
+
+
+<section class="dashboard">
+<h2>Lecturas</h2>
+<ul id="readings"></ul>
+</section>
+
+
+<section class="log">
+<h2>Log</h2>
+<pre id="log"></pre>
+</section>
+</main>
+
+
+<script src="main.js"></script>
+</body>
+</html>
